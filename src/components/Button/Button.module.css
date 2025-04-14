@@ -1,0 +1,47 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: auto;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btnIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.primary {
+  background-color: #e60023;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #ad081b;
+}
+
+.secondary {
+  background-color: #efefef;
+  color: #111;
+}
+
+.secondary:hover {
+  background-color: #e2e2e2;
+}
+
+.info {
+  background-color: #1877f2;
+  color: white;
+}
+
+.info:hover {
+  background-color: #166fe5;
+}
