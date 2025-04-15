@@ -12,12 +12,12 @@ const SlidingForm = ({ isSignUp, onSignUpChange }) => {
           `${isSignUp ? ` ${classes.signup}` : ""}`
         }
       >
-        <div className={classes.login}>
-          {!isSignUp && <UserForm subtitle="Welcome back!" />}
+        <div className={classes.form}>
+          {<UserForm subtitle="Welcome back!" />}
         </div>
 
-        <div className={classes.login}>
-          {isSignUp && <UserForm subtitle="Create your account!" />}
+        <div className={classes.form}>
+          {<UserForm subtitle="Create your account!" />}
         </div>
       </div>
 

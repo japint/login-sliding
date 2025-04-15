@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <>
-      <Button onClick={() => setOpen(true)}>Login</Button>;
+      <Button onClick={() => setOpen(true)}>Login</Button>
       {open && (
         <Modal onClose={() => setOpen(false)}>
           <img src={pinterestLogo} alt="Logo" width={20} height={20} />
